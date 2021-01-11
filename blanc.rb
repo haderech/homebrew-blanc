@@ -22,7 +22,7 @@ class Blanc < Formula
   
    bottle do
       root_url "https://github.com/turnpike/blanc/releases/download/0.8.0"
-      sha256 "679d1453c7083af106c78014352313ef359a5e522acc7e630fc1c35a586845a4" => :bigsur
+      sha256 "87704ae387fddc20e4cb11cf1c9f971694a7ed9513a600626aabc5de98a8cb74" => :big_sur
    end
    def install
       raise "Error, only supporting binary packages at this time"
