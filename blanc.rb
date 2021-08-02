@@ -2,8 +2,8 @@ class Blanc < Formula
 
    homepage "https://github.com/turnpike/blanc"
    revision 0
-   url "https://github.com/turnpike/blanc/archive/0.9.1.tar.gz"
-   version "0.9.1"
+   url "https://github.com/turnpike/blanc/archive/0.9.2.tar.gz"
+   version "0.9.2"
    
    option :universal
 
@@ -21,8 +21,8 @@ class Blanc < Formula
    depends_on :arch =>  :intel
   
    bottle do
-      root_url "https://github.com/turnpike/blanc/releases/download/0.9.1"
-      sha256 big_sur: "33879a6a1bdcdfe7f4e11ac6a50a56d70ff3ccb6dab11b1ad5b9c97b7e32c882"
+      root_url "https://github.com/turnpike/blanc/releases/download/0.9.2"
+      sha256 big_sur: "619123e856de8f06368dd97788062f6baeebf3114954d7a38389a0781bc2a877"
    end
    def install
       raise "Error, only supporting binary packages at this time"
