@@ -2,8 +2,8 @@ class Blanc < Formula
 
   homepage "https://github.com/haderech/blanc"
   revision 0
-  url "https://github.com/haderech/blanc/archive/0.12.1.tar.gz"
-  version "0.12.1"
+  url "https://github.com/haderech/blanc/archive/16.0.0.tar.gz"
+  version "16.0.0"
 
   option :universal
 
@@ -14,9 +14,9 @@ class Blanc < Formula
   depends_on :macos => :ventura
 
   bottle do
-    root_url "https://github.com/haderech/blanc/releases/download/0.12.1"
-    sha256 arm64_ventura: "69a182d6eeed9b6c1b745228a331557719d4399eff3f4c5fe791c4bfb9d2670f"
-    sha256 ventura:       "d5d90097906eba8c25d480cc37eb41ea335c6d92acac58ed4f9d59c5645e71b5"
+    root_url "https://github.com/haderech/blanc/releases/download/16.0.0"
+    sha256 arm64_ventura: "65fb789c73dbf9012678329224f29f45a91c455d73e22271fb96bf3f8dc04a9d"
+    sha256 ventura:       "c4856164c2977f32d41139a0afacb906e21f7d5dc31d30619712df85f24d880b"
   end
   def install
     raise "Error, only supporting binary packages at this time"
